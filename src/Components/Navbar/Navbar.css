@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: gray solid 1px;
+    padding-top: 20px;
+}
+
+.navbar .nav-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar .nav-logo p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    /* font-weight: bold; */
+}
+
+.nav-login-cart {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-login-cart button {
+    background-color: white;
+    padding: 12px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+.nav-login-cart i {
+    font-size: 40px;
+}
+
+hr {
+    background-color: red;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 1px;
+    height: 1px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
