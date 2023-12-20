@@ -1,0 +1,41 @@
+.item {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap:10px;
+    width: 20%;
+}
+
+.item img {
+    height: 300px;
+    transition: 0.5s;
+}
+
+.item img:hover {
+    height: 340px;
+    /* position: fixed; */
+    transition: 0.5s;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item .item-price {
+    padding-left: 50PX;
+    padding-right: 20PX;
+    display: flex;
+    background-color: azure;
+    width: 100%;
+    gap: 30PX;
+    /* justify-content: space-between; */
+}
+
+.item-price-old {
+    color: gray;
+    text-decoration: line-through;
+}
