@@ -21,11 +21,11 @@
     font-weight: bold;
 }
 
-.content form {
+.content .form-newsletter {
     width: 70%;
 }
 
-form {
+.form-newsletter {
     display: flex;
     gap: 5px;
     background-color: white;
@@ -34,7 +34,7 @@ form {
     border-radius: 25px;
 }
 
-form input {
+.form-newsletter input {
     height: 45px;
     width: 77%;
     border-radius: 25px;
@@ -44,12 +44,12 @@ form input {
     font-size: 17px;
 }
 
-form input:focus {
+.form-newsletter input:focus {
     /* border: white; */
     outline: none;
 }
 
-form button {
+.form-newsletter button {
     height: 45px;
     position: relative;
     width: 25%;

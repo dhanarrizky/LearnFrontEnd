@@ -5,6 +5,7 @@ import Offers from "../Components/Offers/Offers";
 import './style.css';
 import Collections from "../Components/Collections/Collections";
 import NewsLetter from "../Components/NewsLetter/NewsLetter";
+import Footer from "../Components/Footer/Footer";
 
 const Shop = () => {
     return (
@@ -14,6 +15,7 @@ const Shop = () => {
             <Offers/>
             <Collections/>
             <NewsLetter/>
+            <Footer/>
         </div>
     )
 }

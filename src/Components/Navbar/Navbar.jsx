@@ -16,13 +16,13 @@ const Navbar = () => {
             </div>
             <ul className="nav-menu">
                 <li onClick={() => {setMenu("Shop")}}><Link className="link" to='/'>Shop</Link>{menu==="Shop"?<hr/>:<></>}</li>
-                <li onClick={() => {setMenu("Men")}}><Link className="link" to='men'>Men</Link>{menu==="Men"?<hr/>:<></>}</li>
-                <li onClick={() => {setMenu("Women")}}><Link className="link" to='women'>Women</Link>{menu==="Women"?<hr/>:<></>}</li>
-                <li onClick={() => {setMenu("Kids")}}><Link className="link" to='kids'>Kids</Link>{menu==="Kids"?<hr/>:<></>}</li>
+                <li onClick={() => {setMenu("Men")}}><Link className="link" to='/men'>Men</Link>{menu==="Men"?<hr/>:<></>}</li>
+                <li onClick={() => {setMenu("Women")}}><Link className="link" to='/women'>Women</Link>{menu==="Women"?<hr/>:<></>}</li>
+                <li onClick={() => {setMenu("Kids")}}><Link className="link" to='/kids'>Kids</Link>{menu==="Kids"?<hr/>:<></>}</li>
             </ul>
             <div className="nav-login-cart">
-                <Link className="link" to='login'><button>Login</button></Link>
-                <i><Link className="link" to='cart'><IoCartOutline /></Link></i>
+                <Link onClick={() => {setMenu("")}} className="link" to='login'><button>Login</button></Link>
+                <i onClick={() => {setMenu("Cart")}}><Link className="link" to='cart'><IoCartOutline /></Link>{menu==="Cart"?<hr/>:<></>}</i>
             </div>
         </div>
     )
